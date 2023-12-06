@@ -1,54 +1,112 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aliceblue;
+  min-height: 100vh;
+}
+header {
+  display: flex;
+  min-width: 100%;
+  min-height: 150px;
+  background: radial-gradient(circle at 1%, darkblue 35%, blue 50%, #93deff);
+  color: aliceblue;
+  padding-left: 30px;
+  padding-top: 25px;
+}
+.zone-title {
+  max-width: 90%;
+  width: 80%;
+}
+h1 {
+  color: aliceblue;
+}
+.logo {
+  max-width: 80%;
+}
+aside {
+  display: none;
+}
+main {
+  min-height: 90vh;
+}
+.main-zone {
+  width: 100%;
+  padding: 30px;
+}
+.menu {
+  max-width: 100%;
+  width: 95%;
+  padding: 0;
+}
+section {
+  margin: 5px;
+}
+h2 {
+    margin-left: 20px;
+    padding: 10px;
   }
-  body {
-    background-color: aliceblue;
-    min-height: 100vh;
-  }
-  header {
+.button-zone {
     display: flex;
-    min-width: 100%;
-    min-height: 150px;
-    background: radial-gradient(circle at 1%, darkblue 35%,blue 50%,#93deff );
+    flex-direction: column;
+    max-width: 95%;
+    width: 95%;
+    border: solid darkblue;
+    border-radius: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  button {
+    height: 40px;
+    min-width: 90%;
     color: aliceblue;
-    padding-left: 30px;
-    padding-top: 25px;
+    background-color: blue;
+    border: solid darkblue;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
-  .zone-title{
-    max-width: 90%;
-    width: 80%;
+  button:hover {
+    background-color: aqua;
   }
-  h1 {
-    color: aliceblue;
+  button:disabled{
+    background-color: #89CFF3;
   }
-  .logo{
-    max-width: 80%;
-  }
-  aside {
-    display: none;
-  }
+@media (min-width: 992px) {
   main {
-    min-height: 90vh;
-  }
-  @media (min-width: 992px) {
-    main {
-      display: flex;
-      width: 100%;
-    }
-   .flex{
     display: flex;
-   } 
-   .inverse{
+    width: 100%;
+  }
+  .flex {
+    display: flex;
+  }
+  .inverse {
     flex-direction: row-reverse;
-   }
-
   }
-  @media(min-width:1200px){
-    aside {
-      display: block !important;
-      min-width: 10%;
-      background-color: cadetblue;
-    }
+  .main-zone {
+    width: 60%;
+    max-width: 60%;
   }
+  .menu {
+    max-width: 40%;
+  }
+  section{
+    padding: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  aside {
+    display: block !important;
+    min-width: 10%;
+    background-color: cadetblue;
+  }
+  .main-zone {
+    width: 50%;
+    max-width: 50%;
+  }
+  .menu {
+    max-width: 30%;
+  }
+}
