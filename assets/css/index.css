@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: aliceblue;
+    min-height: 100vh;
+  }
+  header {
+    display: flex;
+    min-width: 100%;
+    min-height: 150px;
+    background: radial-gradient(circle at 1%, darkblue 35%,blue 50%,#93deff );
+    color: aliceblue;
+    padding-left: 30px;
+    padding-top: 25px;
+  }
+  aside {
+    display: none;
+  }
+  main {
+    min-height: 90vh;
+  }
+  @media (min-width: 992px) {
+    main {
+      display: flex;
+      width: 100%;
+    }
+   .flex{
+    display: flex;
+   } 
+   .inverse{
+    flex-direction: row-reverse;
+   }
+
+  }
+  @media(min-width:1200px){
+    aside {
+      display: block !important;
+      min-width: 10%;
+      background-color: cadetblue;
+    }
+  }
