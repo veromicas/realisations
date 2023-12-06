@@ -114,6 +114,164 @@
                     </p>
                 </ul>
             </section>
+            <section id="projet1" class="to-close" hidden>
+                <h2>Projet 1 : Histoire évoluant par les choix du joueur</h2>
+                <h3 class="title-hide1" id="t-cahier-p1">Cahier des charges</h3>
+                <p class="to-hide1" id="cahier-p1"  >
+                    Réaliser une histoire dont tu es le héros. <br> 
+                    Pour cela l'histoire devra avoir :
+                    <ul>
+                        <li> Des pages qui permettent uniquement d'avancer dans l'histoire.</li>
+                        <li> Des pages à options multiple qui donneront sur différentes pages suivant le choix du joueur.</li>
+                        <li> Des fins différentes suivant les choix fait.</li>
+                    </ul>
+                    Le joueur doit pouvoir s'interrompre en sauvegardant sa partie.
+                </p>
+                <h3 class="title-hide1" id="t-presentation-p1" >Présentation du projet</h3>
+                <p class="to-hide1" id="presentation-p1">
+                    <ul>
+                        <li>
+                            <span class="underline" >Type d'application:</span> Application WEB
+                        </li>
+                        <li>
+                            <span class="underline" >But de l'application:</span> JOUER
+                        </li>
+                           <li>
+                            <span class="underline" >Cible:</span> ADOLESCENTS
+                        </li>
+                        <li>
+                            <span class="underline"> Langages/Framework front:</span>  HTML/CSS/JAVA SCRIPT  
+                        </li>
+                        <li>
+                            <span class="underline"> Langages/Framework back:</span>  PHP LARAVEL 
+                        </li>
+                        <li>
+                            <span class="underline"> Base de Données:</span>  MySQL
+                        </li>
+                         <li>
+                            <span class="underline"> Responsive:</span>  OUI
+                        </li>
+                        <li>
+                            <span class="underline"> Spécificités:</span>  Single Page Application
+                        </li>
+                        <li>
+                            <span class="underline"> GIT:</span>  https://gitlab.com/veromaria/histoire
+                        </li>
+                        <li>
+                            <span class="underline"> Avancement:</span> 
+                            <ul>
+                                <li>Possibilité d'avancer dans une histoire.</li>
+                                <li>Possibilité de se connecter pour sauvegarder une partie.</li>
+                            </ul>
+                        </li>
+                        
+                        <li>
+                            <span class="underline"> Evolution à étudier:</span>
+                            <ul>
+                                <li>Améliorer le visuel.</li>
+                                <li>Créer sa propre histoire.</li>
+                                <li>Prendre en compte le chemin parcouru par l'utilisateur pour l'évolution de l'histoire.</li>
+                                <li>Mettre en place un système d'outils permettant d'accéder à certaines pages.</li>
+                            </ul> 
+                        </li>
+                    </ul>
+                 
+                </p>
+                <h3 class="title-hide1" id="t-description-p1" >Description de l'Application actuelle</h3>
+                <div class="to-hide1" id="description-p1">
+                    <div class="flex section-description">
+                        <div class="text">
+                            <p class="underline">Page "Accueil"</p>
+                            <p>L'utilisateur arrive sur la page "Accueil" de l'application. <br>
+                            Sur cette page, il peut choisir de jouer directement ou de se connecter <br>
+                        </p>
+                        </div>
+                        <div class="image-zone">
+                            <img src="assets/images/projet1/accueil-p1.PNG" alt="accueil" class="image">
+                        </div>
+                    </div>
+                    <div class="flex inverse section-description">
+                        <div class="text">
+                            <p class="underline">Menu</p>
+                            <p>Pendant qu'il joue, l'utilisateur peut avoir accès au menu 
+                                contenant le bouton "QUITTER" 
+                                en appuyant sur la petite flèche en haut à droite.</p>
+                        </div>
+                        <div class="image-zone">
+                            <img src="assets/images/projet1/menu-p1.PNG" alt="menu" class="image">
+                        </div>
+                     
+                    </div>
+                    <div class="flex section-description">
+                        <div class="text">
+                            <p class="underline">Quitter</p>
+                            <p>Lorsque l'utilisateur clique sur le bouton "QUITTER", sans être connecté,
+                                il peut choisir de quitter sans sauvegarder ou de sauvegarder la partie. <br>
+                            Si l'utilisateur est déjà connecté, il retournera directement à la page "Accueil"
+                            et la partie sera sauvegardée<br>
+                        </p>
+                        </div>
+                        <div class="image-zone">
+                            <img src="assets/images/projet1/confirme-exit-p1.PNG" alt="confirme" class="image">
+                        </div>
+                    </div>
+                    <div class="flex inverse section-description">
+                        <div class="text">
+                            <p class="underline">Connexion</p>
+                            <p>L'utilisateur peut accéder à la connexion soit par la page "Accueil",
+                                soit en répondant "NON" à la question "Voulez-vous quitter sans sauvegarder?",
+                                 qui apparaît au moment de quitter le jeu. <br>
+                                 Lorsque la fenêtre de connexion apparaît, l'utilisateur peut soit se connecter,
+                                 s'il a déjà un compte. Ou créer un compte.
+                            </p>
+                        </div>
+                        <div class="image-zone">
+                            <img src="assets/images/projet1/connexion-p1.PNG" alt="connexion" class="image">
+                        </div>
+             
+                    </div>
+                    <div class="flex section-description">
+                     
+                        <div class="text">
+                            <p class="underline">Page "Histoire"</p>
+                            <p>Cette page raconte une partie de l'histoire. <br>
+                            Elle ne donne pas d'options. Pour avancer, il faut cliquer
+                             sur "SUIVANT" en bas à droite de la page.</p>
+                        </div>
+                        <div class="image-zone">
+                            <img src="assets/images/projet1/histoire-p1.PNG" alt="page histoire" class="image">
+                        </div>
+                    </div>
+                    <div class="flex inverse section-description">
+                  
+                        <div class="text">
+                            <p class="underline">Page "Options"</p>
+                            <p>Tout comme la page "Histoire", cette page raconte une partie du récit <br>
+                                En revanche, elle propose plusieurs possibilités pour continuer la lecture. <br>
+                                Suivant le choix de l'utilisateur, la page suivante sera différente,
+                                 par conséquent l'histoire aussi.
+                            </p>
+                        </div>
+                        <div class="image-zone">
+                            <img src="assets/images/projet1/option-p1.PNG" alt="page option" class="image">
+                        </div>
+                    </div>
+                    <div class="flex section-description">
+                        <div class="text">
+                            <p class="underline">Page "Fin"</p>
+                            <p>Cette page raconte la fin de l'histoire, elle dépend des choix fait par l'utilisateur. <br>
+                            Elle ne donne pas d'options. Une fois arrivé à cette page, on ne peut que quitter par le menu.
+                        On sera alors renvoyé à la page "Accueil" sans demande de confirmation.</p>
+                        </div>
+                        <div class="image-zone">
+                            <img src="assets/images/projet1/fin-p1.PNG" alt="page histoire" class="image">
+                        </div>
+                    </div>
+                    <h2>Enchaînement des pages</h2>
+                     <img src="assets/images/projet1/echainement.png" alt="echainement" class="image">
+                </div>
+
+            </section>
         </article>
         <article class="menu">
             <section id="boutons" class="button-zone">

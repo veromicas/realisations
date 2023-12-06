@@ -86,6 +86,21 @@ h2 {
     font-size:large;
     margin-bottom: 3px;
   }
+  .underline{
+    text-decoration: underline;
+  }
+  .text{
+    width: 100%;
+    min-width: 100%;
+  }
+  .image-zone{
+    width: 90%;
+    max-width: 90%;
+  }
+  .image{
+    width: 100%;
+    min-height: 200px;
+  }
 @media (min-width: 992px) {
   main {
     display: flex;
@@ -106,6 +121,16 @@ h2 {
   }
   section{
     padding: 20px;
+  }
+  .text{
+    margin: 5px;
+    width: 50%;
+    min-width: 50%;
+  }
+  .image-zone{
+    margin: 5px;
+    width: 50%;
+    max-width: 50%;
   }
 }
 @media (min-width: 1200px) {
