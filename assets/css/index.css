@@ -16,6 +16,16 @@
     padding-left: 30px;
     padding-top: 25px;
   }
+  .zone-title{
+    max-width: 90%;
+    width: 80%;
+  }
+  h1 {
+    color: aliceblue;
+  }
+  .logo{
+    max-width: 80%;
+  }
   aside {
     display: none;
   }
