@@ -45,62 +45,67 @@ section {
   margin: 5px;
 }
 h2 {
-    margin-left: 20px;
-    padding: 10px;
-  }
+  margin-left: 20px;
+  padding: 10px;
+}
 .button-zone {
-    display: flex;
-    flex-direction: column;
-    max-width: 95%;
-    width: 95%;
-    border: solid darkblue;
-    border-radius: 5px;
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-  button {
-    height: 40px;
-    min-width: 90%;
-    color: aliceblue;
-    background-color: blue;
-    border: solid darkblue;
-    border-radius: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-  button:hover {
-    background-color: aqua;
-  }
-  button:disabled{
-    background-color: #89CFF3;
-  }
-  ul{
-    margin-left: 30px;
-  }
-  li{
+  display: flex;
+  flex-direction: column;
+  max-width: 95%;
+  width: 95%;
+  border: solid darkblue;
+  border-radius: 5px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+button {
+  height: 40px;
+  min-width: 90%;
+  color: aliceblue;
+  background-color: blue;
+  border: solid darkblue;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+button:hover {
+  background-color: aqua;
+}
+button:disabled {
+  background-color: #89cff3;
+}
+ul {
+  margin-left: 30px;
+}
+li {
+  margin-top: 20px;
+}
+.point-title {
+  text-decoration: underline;
+  font-weight: bolder;
+  font-size: large;
+  margin-bottom: 3px;
+}
+h3 {
+    text-decoration: underline;
     margin-top: 20px;
+    margin-bottom: 10px;
   }
-  .point-title{
-    text-decoration: underline;
-    font-weight: bolder;
-    font-size:large;
-    margin-bottom: 3px;
-  }
-  .underline{
-    text-decoration: underline;
-  }
-  .text{
-    width: 100%;
-    min-width: 100%;
-  }
-  .image-zone{
-    width: 90%;
-    max-width: 90%;
-  }
-  .image{
-    width: 100%;
-    min-height: 200px;
-  }
+.underline {
+  text-decoration: underline;
+}
+.text {
+  width: 100%;
+  min-width: 100%;
+}
+.image-zone {
+  width: 90%;
+  max-width: 90%;
+}
+.image {
+  width: 100%;
+  min-height: 200px;
+}
 @media (min-width: 992px) {
   main {
     display: flex;
@@ -119,15 +124,15 @@ h2 {
   .menu {
     max-width: 40%;
   }
-  section{
+  section {
     padding: 20px;
   }
-  .text{
+  .text {
     margin: 5px;
     width: 50%;
     min-width: 50%;
   }
-  .image-zone{
+  .image-zone {
     margin: 5px;
     width: 50%;
     max-width: 50%;

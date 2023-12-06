@@ -272,6 +272,195 @@
                 </div>
 
             </section>
+            <section id="projet2" class="to-close" hidden>
+                <h2>Projet 2 : Retrouver un objet à partir d'indices</h2>
+                <h3 class="title-hide2" id="t-cahier-p2">Cahier des charges</h3>
+                <p class="to-hide2" id="cahier-p2"  >
+                    Créer un jeu de devinette dont chaque partie est différente. <br> 
+                    Pour cela :
+                    <ul>
+                        <li> Inventer une ou plusieurs histoires pour donner un contexte au jeu.</li>
+                        <li>Si plusieurs histoires, celle utilisée pour la partie devra être déterminée aléatoirement.</li>
+                        <li> Jouer avec une liste de différents objets répartie en categorie. 
+                            Les objets de cette liste doivent être choisi aléatoirement à chaque partie.</li>
+                        <li>L'objet à trouver doit être défini aléatoirement parmi ceux de la liste à chaque partie.</li>
+                        <li> Donner des indices qui permettront de deviner l'objet cherché par ses caractéristiques.</li>
+                    </ul>
+                </p>
+                <h3 class="title-hide2" id="t-presentation-p2" >Présentation du projet</h3>
+                <p class="to-hide2" id="presentation-p2">
+                    <ul>
+                        <li>
+                            <span class="underline" >Type d'application:</span> Application WEB
+                        </li>
+                        <li>
+                            <span class="underline" >But de l'application:</span> JOUER
+                        </li>
+                           <li>
+                            <span class="underline" >Cible:</span> ENFANTS
+                        </li>
+                        <li>
+                            <span class="underline"> Langages/Framework front:</span>  HTML/CSS/VUE.JS
+                        </li>
+                        <li>
+                            <span class="underline"> Langages/Framework back:</span>  PHP (API)
+                        </li>
+                        <li>
+                            <span class="underline"> Base de Données:</span>  MySQL
+                        </li>
+                         <li>
+                            <span class="underline"> Responsive:</span>  OUI
+                        </li>
+                        <li>
+                            <span class="underline"> Spécificités:</span>  Single Page Application
+                        </li>
+                      
+                        <li>
+                            <span class="underline"> Avancement:</span> 
+                            <ul>
+                                <li>Front achevé.</li>
+                            </ul>
+                        </li>
+                        
+                        <li>
+                            <span class="underline"> Prochaine étape:</span>
+                            <ul>
+                                <li>Réaliser l'API en PHP qui donnera accès aux histoires et aux objets.</li>
+                                
+                            </ul> 
+                        </li>
+                    </ul>
+                 
+                </p>
+                <h3 class="title-hide2" id="t-description-p2" >description du projet</h3>
+                <div class="to-hide2" id="description-p2">
+                    <div class="flex section-description">
+                        <div class="text">
+                            <p class="underline">Page "Accueil"</p>
+                            <p>L'utilisateur arrive sur la page "Accueil" de l'application. <br>
+                            Sur cette page, un paragraphe lui introduit le jeu. <br>
+                            En cliquant sur "CONTINUER". Il accède à l'histoire
+                        </p>
+                        </div>
+                        <div class="image-zone">
+                            <img src="assets/images/projet2/accueil-p2.PNG" alt="accueil" class="image">
+                        </div>
+                    </div>
+                    <div class="flex inverse section-description">
+              
+                        <div class="text">
+                            <p class="underline">Page "Histoire"</p>
+                            <p>L'Histoire présente à l'utilisateur, un personnage qui lui demande de l'aide. 
+                               Ce personnage souhaite retrouver un objet dont il ne connaît que la description. <br>
+                            Puis le lecteur, découvre de quelle manière a été établi la liste des possibilités. <br>
+                        En cliquant sur "JOUER", l'utilisateur arrive enfin dans la page "Jeu".</p>
+                        </div>
+                        <div class="image-zone">
+                            <img src="assets/images/projet2/histoire-p2.PNG" alt="histoire" class="image">
+                        </div>
+                    </div>
+                    <div class="flex section-description">
+                        <div class="text">
+                            <p class="underline">Page "Jeu"</p>
+                            <p>La page "Jeu est divisée en 4 zones.<br>
+                           La zone "Indices", la zone "Catégories", la zone "Objets" et la zone "Réponse". <br>
+                        </p>
+                        </div>
+                        <div class="image-zone">
+                            <img src="assets/images/projet2/jeu-p2.PNG" alt="jeu" class="image">
+                        </div>
+                    </div>
+                    <div class="flex inverse section-description">
+                    
+                        <div class="text">
+                            <p class="underline">Zone "Indices"</p>
+                            <p>La zone "Indices" comme son nom l'indique est celle où sont affichés les indices. <br>
+                            Les deux flèches, au bas de la zone, permettent de naviguer entre les différents indices.</p>
+                        </div>
+                        <div class="image-zone">
+                            <img src="assets/images/projet2/PageJeu-indice.png" alt="indices" class="image">
+                        </div>
+                    </div>
+                    <div class="flex section-description">
+                        <div class="text">
+                            <p class="underline">Zone "Catégories"</p>
+                            <p>La zone "Catégories" présente, sous forme de vignettes,
+                                 les categories auxquelles appartiennent les possibilités. <br>
+                                En cliquant une seule fois sur une catégorie, on fait apparaitre dans 
+                                la zone "Objets", les possibilités qui y sont rattachées.</p>
+                        </div>
+                        <div class="image-zone">
+                            <img src="assets/images/projet2/categorie.png" alt="categorie" class="image">
+                        </div>
+                    </div>
+                    <div class="flex inverse section-description">
+                       
+                        <div class="text">
+                            <p class="underline">Zone "Objets"</p>
+                            <p>La zone "Objets" ¨présente, sous forme de vignettes,
+                                 les objets appartenant à une catégorie. <br>
+                                 En cliquant une seule fois sur un objet, on fait apparaitre dans 
+                                 une cinquième zone, zone "Caractéristiques", les caractéristiques de l'objet cliqué.</p>
+                        </div>
+                        <div class="image-zone">
+                            <img src="assets/images/projet2/caracteristique.PNG" alt="caracteristique" class="image">
+                        </div>
+                    </div>
+                    <div class="flex section-description">
+                        <div class="text">
+                            <p class="underline">Zone "Catégories" et zone "Objets" double click</p>
+                            <p>Le simple click sur les vignettes des zones "Catégories" et "Objets" a été décrit précédemment. <br>
+                            Le double click sur ces vignettes quant à lui permet de retourner la vignette. <br>
+                             Une fois retourner, le dos de la vignette apparaît. <br>
+                            Tant que le dos de la vignette est affiché, il est impossible d'afficher 
+                            les objets de cette catégorie ou les caractéristiques de cet objet. <br>
+                            Pour le remettre à l'endroit, il suffit de double-cliquer à nouveau. </p>
+                        </div>
+                        <div class="image-zone">
+                            <img src="assets/images/projet2/retourner.PNG" alt="dos des vignettes" class="image">
+                        </div>
+                    </div>
+                    <div class="flex inverse section-description">
+                     
+                        <div class="text">
+                            <p class="underline">Zone "Réponse"</p>
+                            <p>Lorsque le joueur est sûr d'avoir trouvé l'objet, il peut donner sa réponse. <br>
+                            Pour cela, il doit prendre la vignette de l'objet choisi dans la zone "Objets" et
+                             la déposer dans la zone "Réponse". <br>
+                            Une fois la vignette déposée, le jeu est fini. </p>
+                        </div>
+                        <div class="image-zone">
+                            <img src="assets/images/projet2/Réponse.png" alt="réponse" class="image">
+                        </div>
+                    </div>
+                    <div class="flex section-description">
+                        <div class="text">
+                            <p class="underline">Résultat</p>
+                            <p>Une fenêtre apparaît indiquant si le joueur à "GAGNER" ou "PERDU". <br>
+                            Quel que soit le résultat, il est impossible de retourner sur la partie. <br>
+                        Une fois la fenêtre de résultat fermer, l'utilisateur retourne à la page accueil.</p>
+                        </div>
+                        <div class="image-zone">
+                            <img src="assets/images/projet2/gagner.PNG" alt="dos des vignettes" class="image">
+                            <img src="assets/images/projet2/Perdu.PNG" alt="dos des vignettes" class="image">
+                        </div>
+                    </div>
+                    <div class="flex inverse section-description">
+                   
+                        <div class="text">
+                            <p class="underline">Aide</p>
+                            <p>Le petit logo situé en haut à droite des pages permet d'accéder à tout moment à
+                                 l'explication de comment jouer. </p>
+                        </div>
+                        <div class="image-zone">
+                            <img src="assets/images/projet2/aide2.PNG" alt="réponse" class="image">
+                        </div>
+                    </div>
+                    <h2>Enchaînement des pages</h2>
+                     <img src="assets/images/projet2/trouve.png" alt="echainement" class="image">
+                </div>
+                
+            </section>
         </article>
         <article class="menu">
             <section id="boutons" class="button-zone">
